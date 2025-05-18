@@ -77,7 +77,7 @@ const RemindInfo = () => {
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary-100 text-primary font-bold text-xl mb-4">3</div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Via Email</h4>
               <p className="text-gray-600">
-                Send an email to <span className="font-medium text-primary">investclub@mail.remind.com</span>
+                Send an email to <span className="font-medium text-primary break-all">investclub@mail.remind.com</span>
               </p>
             </div>
           </div>

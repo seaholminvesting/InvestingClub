@@ -80,20 +80,22 @@ const ResourceList = () => {
       </div>
 
       <Tabs defaultValue="all" className="mb-12" onValueChange={setActiveTab}>
-        <TabsList className="flex flex-wrap justify-center border-b border-gray-200 w-full gap-2">
-          <TabsTrigger value="all" className="px-6 py-3 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
-            All Resources
-          </TabsTrigger>
-          <TabsTrigger value="beginner" className="px-6 py-3 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
-            Investing Basics
-          </TabsTrigger>
-          <TabsTrigger value="intermediate" className="px-6 py-3 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
-            Personal Finance
-          </TabsTrigger>
-          <TabsTrigger value="video" className="px-6 py-3 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
-            Videos & Podcasts
-          </TabsTrigger>
-        </TabsList>
+        <div className="bg-gray-50 py-4 rounded-t-lg px-4">
+          <TabsList className="flex flex-wrap justify-center mx-auto max-w-3xl border-b border-gray-200 w-full">
+            <TabsTrigger value="all" className="px-3 py-2 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
+              All Resources
+            </TabsTrigger>
+            <TabsTrigger value="beginner" className="px-3 py-2 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
+              Investing Basics
+            </TabsTrigger>
+            <TabsTrigger value="intermediate" className="px-3 py-2 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
+              Personal Finance
+            </TabsTrigger>
+            <TabsTrigger value="video" className="px-3 py-2 font-medium data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary">
+              Videos & Podcasts
+            </TabsTrigger>
+          </TabsList>
+        </div>
         
         <TabsContent value={activeTab} className="mt-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
