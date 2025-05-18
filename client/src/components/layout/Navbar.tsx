@@ -47,28 +47,28 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link href="/">
-              <a className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold">
-                  <span className="text-primary">Invest</span>
-                  <span className="text-secondary">Ed</span>
-                </span>
-              </a>
+            <Link href="/" className="flex-shrink-0 flex items-center">
+              <span className="text-2xl font-bold">
+                <span className="text-primary">Invest</span>
+                <span className="text-secondary">Ed</span>
+              </span>
             </Link>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {routes.map((route) => (
-              <Link key={route.path} href={route.path}>
-                <a className={cn(
+              <Link 
+                key={route.path} 
+                href={route.path}
+                className={cn(
                   "nav-link font-medium transition-colors duration-150", 
                   location === route.path 
                     ? "text-gray-800 active" 
                     : "text-gray-600 hover:text-primary"
-                )}>
-                  {route.label}
-                </a>
+                )}
+              >
+                {route.label}
               </Link>
             ))}
             <Button className="ml-4 bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105">
@@ -100,13 +100,13 @@ const Navbar = () => {
       >
         <div className="px-4 pt-2 pb-4 space-y-1 sm:px-6">
           {routes.map((route) => (
-            <Link key={route.path} href={route.path}>
-              <a 
-                className="block py-2 text-base font-medium text-gray-600 hover:text-gray-900 border-b border-gray-200"
-                onClick={closeMenu}
-              >
-                {route.label}
-              </a>
+            <Link 
+              key={route.path} 
+              href={route.path}
+              className="block py-2 text-base font-medium text-gray-600 hover:text-gray-900 border-b border-gray-200"
+              onClick={closeMenu}
+            >
+              {route.label}
             </Link>
           ))}
           <div className="pt-2">

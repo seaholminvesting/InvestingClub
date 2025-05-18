@@ -54,7 +54,7 @@ const ContactForm = () => {
       email: "",
       subject: "",
       message: "",
-      subscribe: false,
+      subscribe: "false",
     },
   });
 
@@ -166,8 +166,10 @@ const ContactForm = () => {
                 <FormItem className="flex flex-row items-start space-x-3 space-y-0">
                   <FormControl>
                     <Checkbox
-                      checked={field.value}
-                      onCheckedChange={field.onChange}
+                      checked={field.value === "true" ? true : false}
+                      onCheckedChange={(checked) => {
+                        field.onChange(checked ? "true" : "false");
+                      }}
                     />
                   </FormControl>
                   <div className="space-y-1 leading-none">
