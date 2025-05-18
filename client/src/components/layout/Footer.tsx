@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">
-              <span>Invest</span>
-              <span className="text-secondary">Ed</span>
+              <span className="text-white">Seaholm</span>
+              <span className="text-secondary">Investing</span>
             </h3>
             <p className="text-gray-400">
               High School Investing & Finance Club dedicated to financial education and smart investing for students.

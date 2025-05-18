@@ -12,7 +12,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Learn to <span className="text-primary">Invest</span>, Build Your <span className="text-secondary">Future</span>
+            Learn at <span className="text-primary">Seaholm</span>, Build Your <span className="text-secondary">Future</span>
           </h1>
           <p className="text-xl text-gray-600">
             Join our high school's premier investing and finance club to gain essential financial literacy skills and start building wealth early.
