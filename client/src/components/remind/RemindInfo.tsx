@@ -54,14 +54,14 @@ const RemindInfo = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className="p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">How to Join Our Remind Class</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">Ways to Join Our Remind</h3>
           
           <div className="grid md:grid-cols-3 gap-6">
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary-100 text-primary font-bold text-xl mb-4">1</div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Text our Class Code</h4>
               <p className="text-gray-600">
-                Text <span className="font-medium text-primary">@investclub</span> to <span className="font-medium text-primary">81010</span>
+                Text <span className="font-medium text-primary">@seaholminv</span> to <span className="font-medium text-primary">81010</span>
               </p>
             </div>
 
@@ -69,7 +69,7 @@ const RemindInfo = () => {
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary-100 text-primary font-bold text-xl mb-4">2</div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Use the Remind App</h4>
               <p className="text-gray-600">
-                Download the Remind app and enter our class code: <span className="font-medium text-primary">@investclub</span>
+                Download the Remind app and enter our class code: <span className="font-medium text-primary">@seaholminv</span>
               </p>
             </div>
 
@@ -77,14 +77,14 @@ const RemindInfo = () => {
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-primary-100 text-primary font-bold text-xl mb-4">3</div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Via Email</h4>
               <p className="text-gray-600">
-                Send an email to <span className="font-medium text-primary break-all">investclub@mail.remind.com</span>
+                Send an email to <span className="font-medium text-primary break-all">seaholminv@mail.remind.com</span>
               </p>
             </div>
           </div>
 
           <div className="mt-8 text-center">
             <Button asChild className="bg-primary hover:bg-primary/90 transition-transform hover:scale-105">
-              <a href="https://www.remind.com/join/investclub" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.remind.com/join/seaholminv" target="_blank" rel="noopener noreferrer">
                 Join via Remind Website
               </a>
             </Button>

@@ -6,12 +6,12 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - InvestEd Finance Club</title>
+        <title>Contact Us - Seaholm Investing Club</title>
         <meta 
           name="description" 
-          content="Have questions about the InvestEd Finance Club or interested in joining? Reach out to us through our contact form or club information."
+          content="Have questions about the Seaholm Investing Club or interested in joining? Reach out to us through our contact form or club information."
         />
-        <meta property="og:title" content="Contact Us - InvestEd Finance Club" />
+        <meta property="og:title" content="Contact Us - Seaholm Investing Club" />
         <meta property="og:description" content="Get in touch with our high school finance and investing club. Send a message or find our meeting times and contact information." />
         <meta property="og:type" content="website" />
       </Helmet>

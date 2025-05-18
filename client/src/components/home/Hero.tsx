@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import HousePhoto from "../../public/HousePhoto.png";
 
 const Hero = () => {
   return (
@@ -12,16 +13,26 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Learn at <span className="text-primary">Seaholm</span>, Build Your <span className="text-secondary">Future</span>
+            Learn <span className="text-primary">Investing</span>, Grow Your <span className="text-secondary">Wealth</span>
           </h1>
           <p className="text-xl text-gray-600">
             Join our high school's premier investing and finance club to gain essential financial literacy skills and start building wealth early.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105" onClick={() => window.location.href = '/remind'}>
               Get Started
             </Button>
-            <Button size="lg" variant="outline" className="border-gray-300 hover:border-primary text-gray-800 font-medium">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-gray-300 hover:border-primary text-gray-800 font-medium"
+              onClick={() => {
+                const aboutSection = document.getElementById('about-us');
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               Learn More
             </Button>
           </div>
@@ -33,8 +44,8 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-            alt="Students analyzing financial charts" 
+            src={HousePhoto}
+            alt="House with money and finance" 
             className="rounded-xl shadow-lg w-full h-auto" 
           />
         </motion.div>

@@ -49,8 +49,8 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-bold">
-                <span className="text-primary">Seaholm</span>
-                <span className="text-secondary">Investing</span>
+                <span className="text-primary">Seaholm </span>
+                <span className="text-primary">Investing</span>
               </span>
             </Link>
           </div>
@@ -71,7 +71,10 @@ const Navbar = () => {
                 {route.label}
               </Link>
             ))}
-            <Button className="ml-4 bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105">
+            <Button 
+              className="ml-4 bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105"
+              onClick={() => window.location.href = '/remind'}
+            >
               Join Club
             </Button>
           </nav>
@@ -110,7 +113,10 @@ const Navbar = () => {
             </Link>
           ))}
           <div className="pt-2">
-            <Button className="w-full bg-primary hover:bg-primary/90">
+            <Button 
+              className="w-full bg-primary hover:bg-primary/90"
+              onClick={() => window.location.href = '/remind'}
+            >
               Join Club
             </Button>
           </div>

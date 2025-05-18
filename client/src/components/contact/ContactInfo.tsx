@@ -24,8 +24,8 @@ const ContactInfo = () => {
               </div>
               <div className="ml-3">
                 <h4 className="text-lg font-medium text-gray-900">Meeting Schedule</h4>
-                <p className="text-gray-600">Every Tuesday and Thursday, 3:30 PM - 5:00 PM</p>
-                <p className="text-gray-600">Room 203, Main Building</p>
+                <p className="text-gray-600">Bi-weekly on Thursdays, 3:00 PM - 3:45 PM</p>
+                <p className="text-gray-600">Mr. Yusko's Room - Room F113</p>
               </div>
             </div>
 
@@ -35,7 +35,7 @@ const ContactInfo = () => {
               </div>
               <div className="ml-3">
                 <h4 className="text-lg font-medium text-gray-900">Email</h4>
-                <p className="text-gray-600">investingclub@highschool.edu</p>
+                <p className="text-gray-600">sjs12@bps-schools.com</p>
               </div>
             </div>
 
@@ -45,8 +45,8 @@ const ContactInfo = () => {
               </div>
               <div className="ml-3">
                 <h4 className="text-lg font-medium text-gray-900">Faculty Advisor</h4>
-                <p className="text-gray-600">Ms. Jennifer Anderson</p>
-                <p className="text-gray-600">Economics Department</p>
+                <p className="text-gray-600">Mr. Robert Yusko</p>
+                <p className="text-gray-600">Business and Technology Department</p>
               </div>
             </div>
 
@@ -56,9 +56,8 @@ const ContactInfo = () => {
               </div>
               <div className="ml-3">
                 <h4 className="text-lg font-medium text-gray-900">Club Officers</h4>
-                <p className="text-gray-600">President: Michael Chen</p>
-                <p className="text-gray-600">Vice President: Sophia Rodriguez</p>
-                <p className="text-gray-600">Treasurer: James Wilson</p>
+                <p className="text-gray-600">President: Spencer Sherr</p>
+                <p className="text-gray-600">Vice President: Davis Nieman</p>
               </div>
             </div>
           </div>
@@ -70,20 +69,6 @@ const ContactInfo = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-6">Follow Us</h3>
           
           <div className="flex space-x-4">
-            <a 
-              href="#" 
-              className="bg-[#1877F2] hover:bg-[#0E5FC1] text-white rounded-full p-3 transition duration-150 ease-in-out"
-              aria-label="Facebook"
-            >
-              <Facebook className="h-6 w-6" />
-            </a>
-            <a 
-              href="#" 
-              className="bg-[#1DA1F2] hover:bg-[#0B7CC1] text-white rounded-full p-3 transition duration-150 ease-in-out"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-6 w-6" />
-            </a>
             <a 
               href="#" 
               className="bg-[#E4405F] hover:bg-[#D1294D] text-white rounded-full p-3 transition duration-150 ease-in-out"

@@ -45,7 +45,7 @@ const Testimonials = () => {
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <div key={i} className="text-accent-500 ml-1 first:ml-0">
-                    <Star className="h-5 w-5 fill-current" />
+                    <Star className="h-5 w-5 fill-current" style={{ color: "#FFB700", fill: "#FFB700" }}/>
                   </div>
                 ))}
               </div>

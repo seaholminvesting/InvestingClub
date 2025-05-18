@@ -5,16 +5,16 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-primary/90 text-white py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">
-              <span className="text-white">Seaholm</span>
-              <span className="text-secondary">Investing</span>
+              <span className="text-white">Seaholm </span>
+              <span className="text-white">Investing</span>
             </h3>
             <p className="text-gray-400">
-              High School Investing & Finance Club dedicated to financial education and smart investing for students.
+              High school investing and finance Club dedicated to financial education and smart investing for students.
             </p>
           </div>
 
@@ -74,17 +74,11 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} High School Investing & Finance Club. All rights reserved.
+            &copy; {new Date().getFullYear()} Seaholm Investing Club. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150" aria-label="Facebook">
-              <Facebook size={20} />
-            </a>
             <a href="#" className="text-gray-400 hover:text-white transition duration-150" aria-label="Instagram">
               <Instagram size={20} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition duration-150" aria-label="Twitter">
-              <Twitter size={20} />
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition duration-150" aria-label="LinkedIn">
               <Linkedin size={20} />

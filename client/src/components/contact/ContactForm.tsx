@@ -174,7 +174,7 @@ const ContactForm = () => {
                   </FormControl>
                   <div className="space-y-1 leading-none">
                     <FormLabel className="font-normal text-sm text-gray-600">
-                      I agree to receive communication from the Investing & Finance Club
+                      I agree to receive communication from the Seaholm Investing Club
                     </FormLabel>
                   </div>
                 </FormItem>
