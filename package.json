@@ -13,7 +13,7 @@
     "predeploy": "npm run build:client",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://seaholminvesting.github.io/investingclub/",
+  "homepage": "https://seaholminvesting.github.io/",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
