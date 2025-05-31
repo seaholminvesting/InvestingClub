@@ -25,13 +25,10 @@ const AboutUs = () => {
           >
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Seaholm Investing Club was founded in 2019 with a clear mission: to provide students with the knowledge and tools needed to build financial literacy and investing skills that will serve them throughout their lives.
+                The Seaholm Investing Club is an official 501(c)(3) nonprofit organization. We help students learn about investing, finance, and business through interactive presentations, engaging games, and guest speakers.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Our club members range from complete beginners to advanced students who have been managing their own investment portfolios. We welcome all skill levels and interests, providing a supportive environment where students can learn, practice, and grow their financial understanding.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Through weekly meetings, workshops, guest speakers, and hands-on activities, we aim to demystify the world of finance and equip Seaholm High School students with practical knowledge about saving, investing, and building wealth that they can apply immediately and carry with them into adulthood.
+                We’re excited to partner with both Comerica and Huntington Banks to develop and manage our own investing portfolio. Throughout the course of the year, the Seaholm Investing Club will manage a portfolio of $350, taking input from members each meeting. At the conclusion of the year, we will partner with a charity to donate the appreciated sum. 
               </p>
             </div>
           </motion.div>

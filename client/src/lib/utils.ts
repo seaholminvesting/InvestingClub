@@ -22,10 +22,8 @@ export function truncateText(text: string, maxLength: number): string {
 export interface Resource {
   id: number;
   title: string;
-  description: string;
   image: string;
-  category: 'beginner' | 'intermediate' | 'advanced' | 'video';
-  readTime: string;
+  category: 'website' | 'book' | 'channel';
   link: string;
 }
 

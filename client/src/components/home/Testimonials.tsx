@@ -6,21 +6,21 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     content: "This club completely changed my perspective on money. I've started investing with my allowance and already see results!",
-    author: "Alex Johnson",
-    position: "Junior",
+    author: "Davis Nieman",
+    position: "Senior",
     rating: 5
   },
   {
     id: 2,
     content: "The stock market competition was so fun and educational. I learned more about investing here than I ever did in regular classes.",
-    author: "Michelle Lee",
-    position: "Senior",
+    author: "Leo Ballini",
+    position: "Junior",
     rating: 5
   },
   {
     id: 3,
     content: "Meeting investment professionals and hearing their stories inspired me to consider a career in finance. This club has been invaluable.",
-    author: "David Garcia",
+    author: "John Hofley",
     position: "Sophomore",
     rating: 5
   }

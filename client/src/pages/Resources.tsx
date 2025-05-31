@@ -5,12 +5,12 @@ const Resources = () => {
   return (
     <>
       <Helmet>
-        <title>Resources - InvestEd Finance Club</title>
+        <title>Resources - Seaholm Investing Club</title>
         <meta 
           name="description" 
           content="Access our curated collection of financial educational resources, guides, videos and tools to enhance your investing knowledge and skills."
         />
-        <meta property="og:title" content="Financial Education Resources - InvestEd Finance Club" />
+        <meta property="og:title" content="Financial Education Resources - Seaholm Investing Club" />
         <meta property="og:description" content="Access our curated collection of financial resources and educational materials." />
         <meta property="og:type" content="website" />
       </Helmet>

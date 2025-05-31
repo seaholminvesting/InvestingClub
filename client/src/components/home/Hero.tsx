@@ -16,23 +16,13 @@ const Hero = () => {
             Learn <span className="text-primary">Investing</span>, Grow Your <span className="text-secondary">Wealth</span>
           </h1>
           <p className="text-xl text-gray-600">
-            Join our high school's premier investing and finance club to gain essential financial literacy skills and start building wealth early.
+            Join our Seaholm high school's premier investing and finance club to gain essential financial literacy skills and start building wealth early.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105" onClick={() => window.location.href = '/remind'}>
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium transition-transform hover:scale-105">
               Get Started
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-gray-300 hover:border-primary text-gray-800 font-medium"
-              onClick={() => {
-                const aboutSection = document.getElementById('about-us');
-                if (aboutSection) {
-                  aboutSection.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
+            <Button size="lg" variant="outline" className="border-gray-300 hover:border-primary text-gray-800 font-medium">
               Learn More
             </Button>
           </div>

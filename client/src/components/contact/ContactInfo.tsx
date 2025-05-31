@@ -70,16 +70,18 @@ const ContactInfo = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="#" 
+              href="https://www.instagram.com/seaholm.investments/" 
               className="bg-[#E4405F] hover:bg-[#D1294D] text-white rounded-full p-3 transition duration-150 ease-in-out"
               aria-label="Instagram"
+              target="_blank"
             >
               <Instagram className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/company/seaholm-investing-club" 
               className="bg-[#0077B5] hover:bg-[#005885] text-white rounded-full p-3 transition duration-150 ease-in-out"
               aria-label="LinkedIn"
+              target="_blank"
             >
               <Linkedin className="h-6 w-6" />
             </a>
