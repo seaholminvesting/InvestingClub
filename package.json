@@ -12,7 +12,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
-  "homepage": "https://seaholminvesting.github.io/investingclub",
+  "homepage": "https://seaholminvesting.github.io/investingclub/",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
